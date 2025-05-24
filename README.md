@@ -25,7 +25,7 @@ Edge Impulse
 # Implementation
 
 1. Open Arduino IDE.
-2. Inatal DFRobot_SCD4X library and use singleShotMeasure.
+2. Instal DFRobot_SCD4X library and use singleShotMeasure.
 3. Connect the I2C interface to the Arduino Nano 33 BLE board.
 4. Connect the Arduino Nano 33 BLE board to your device.
 5. Start taking carbon dioxide readings from different places.
@@ -33,7 +33,7 @@ Edge Impulse
 7. Create an Edge Impulse account.
 8. Analyze your data using Edge Impulse after converting your data to an Excel file in CSV (comma-separated value) form.
 
-**Edge Impulse Integration
+**Edge Impulse Integration**
 
 1. Log/Sign in to your Edge Impulse account and create a new project.
 2. Follow the instructions to add a new data acquisition source and select Arduino as the device type.
