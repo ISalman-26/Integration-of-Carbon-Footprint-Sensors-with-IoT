@@ -1,4 +1,4 @@
-# Integration-of-Carbon-Footprint-Sensors-with-IoT
+# Integration-of-Carbon-Footprint-Sensor-with-IoT
 
 Done by:
 
