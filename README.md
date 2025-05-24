@@ -25,21 +25,22 @@ Edge Impulse
 
 # Implementation
 
-Open Arduino IDE.
-Inatal DFRobot_SCD4X library and use singleShotMeasure.
-Connect the I2C interface to the Arduino Nano 33 BLE board.
-Connect the Arduino Nano 33 BLE board to your device.
-Start taking carbon dioxide readings from different places.
-Save and arrange your data in Excle sheet.
-Create an Edge Impulse account.
-Analyze your data using Edge Impulse after converting your data to an Excel file in CSV (comma-separated value) form.
+1. Open Arduino IDE.
+2. Inatal DFRobot_SCD4X library and use singleShotMeasure.
+3. Connect the I2C interface to the Arduino Nano 33 BLE board.
+4. Connect the Arduino Nano 33 BLE board to your device.
+5. Start taking carbon dioxide readings from different places.
+6. Save and arrange your data in Excle sheet.
+7. Create an Edge Impulse account.
+8. Analyze your data using Edge Impulse after converting your data to an Excel file in CSV (comma-separated value) form.
 
-Edge Impulse Integration
+## Edge Impulse Integration
 
-Log/Sign in to your Edge Impulse account and create a new project.
-Follow the instructions to add a new data acquisition source and select Arduino as the device type.
-Configure the data acquisition parameters and collect training data for CO2 level detection.
-Train your machine learning model using Edge Impulse's built-in tools.
+1. Log/Sign in to your Edge Impulse account and create a new project.
+2. Follow the instructions to add a new data acquisition source and select Arduino as the device type.
+3. Configure the data acquisition parameters and collect training data for CO2 level detection.
+4. Train your machine learning model using Edge Impulse's built-in tools.
+   
 # Opservations & Results
 
 We took readings of carbon dioxide from various locations in the city of Al-Ahsa (Kingdom of Saudi Arabia) and at different times and days. We faced some difficulties in moving from one place to another to collect readings during hot weather conditions. Finally, we took readings from different places that were classified in :
@@ -65,3 +66,5 @@ We took readings of carbon dioxide from various locations in the city of Al-Ahsa
 And after an estimated 7 minutes of training the flatten block has produce a results shown in the bellow figure:
 
 <img width="681" alt="image" src="https://github.com/user-attachments/assets/82fe656e-dd3a-4d1c-b3f0-aba3fd6d5615" />
+
+
